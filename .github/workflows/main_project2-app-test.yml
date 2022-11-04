@@ -23,15 +23,13 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        working-directory: ./web
-        run: dotnet build --configuration Release
+        run: dotnet build ${GITHUB_WORKSPACE}/web --configuration Release
 
       - name: dotnet publish
-        working-directory: ./web
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ${GITHUB_WORKSPACE}/web -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2        
         with:
           name: .net-app
           path: ${{env.DOTNET_ROOT}}/myapp
