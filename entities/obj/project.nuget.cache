@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jsjl3r4Rb2zPIs+tPD378yLuBBei1UHefaKa0FPsdRaTuAqko0TK24fAw+A8C1/qRA8ooMufHg467FcifO/Glg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ashwini.b.pillai\\Desktop\\Azure Developer Academy\\azure\\projects\\distributed\\src\\entities\\ToDoList.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ashwini.b.pillai\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
